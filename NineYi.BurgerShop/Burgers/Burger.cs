@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace NineYi.BurgerShop.Burgers
 {
-    public abstract class Burger
+    public class Burger
     {
         public string Name { get; set; }
         public Bread Bread { get; set; }

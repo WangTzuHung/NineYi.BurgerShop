@@ -4,16 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NineYi.BurgerShop.Breads
+namespace NineYi.BurgerShop.Meats
 {
     /// <summary>
-    /// 全麥麵包
+    /// 日本肉雞
     /// </summary>
-    public class BlackBread : Bread
+    public class JapanChicken : Meat
     {
-        public BlackBread()
+        public JapanChicken()
         {
-            this.Name = "Black Bread";
+            this.Name = "Japan Chicken";
         }
     }
 }

@@ -4,16 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NineYi.BurgerShop.Burgers
+namespace NineYi.BurgerShop.Veggies
 {
     /// <summary>
-    /// 紐約豬肉堡
+    /// 高麗菜
     /// </summary>
-    public class NewYorkPorkBurger : Burger
+    public class Cabbage : Veggie
     {
-        public NewYorkPorkBurger()
+        public Cabbage()
         {
-            this.Name = "NewYork Pork Burger";
+            this.Name = "Cabbage";
         }
     }
 }
